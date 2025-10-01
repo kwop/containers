@@ -6,11 +6,11 @@ FROM docker.io/bitnamilegacy/minideb:bookworm
 ARG DOWNLOADS_URL="downloads.bitnami.com/files/stacksmith"
 ARG TARGETARCH
 
-LABEL org.opencontainers.image.base.name="docker.io/bitnami/minideb:bookworm" \
+LABEL org.opencontainers.image.base.name="docker.io/bitnamilegacy/minideb:bookworm" \
       org.opencontainers.image.created="2025-09-07T02:30:00Z" \
-      org.opencontainers.image.description="Application packaged by Broadcom, Inc." \
-      org.opencontainers.image.documentation="https://github.com/bitnami/containers/tree/main/bitnami/rabbitmq/README.md" \
-      org.opencontainers.image.source="https://github.com/bitnami/containers/tree/main/bitnami/rabbitmq" \
+      org.opencontainers.image.description="Application packaged by kwop." \
+      org.opencontainers.image.documentation="https://github.com/kwop/containers/tree/main/bitnami/rabbitmq/README.md" \
+      org.opencontainers.image.source="https://github.com/kwop/containers/tree/main/bitnami/rabbitmq" \
       org.opencontainers.image.title="rabbitmq" \
       org.opencontainers.image.vendor="Broadcom, Inc." \
       org.opencontainers.image.version="4.1.4"
