@@ -1,12 +1,12 @@
 # Copyright Broadcom, Inc. All Rights Reserved.
 # SPDX-License-Identifier: APACHE-2.0
 
-FROM docker.io/bitnamilegacy/minideb:bookworm
+FROM docker.io/bitnami/minideb:bookworm
 
 ARG DOWNLOADS_URL="downloads.bitnami.com/files/stacksmith"
 ARG TARGETARCH
 
-LABEL org.opencontainers.image.base.name="docker.io/bitnamilegacy/minideb:bookworm" \
+LABEL org.opencontainers.image.base.name="docker.io/bitnami/minideb:bookworm" \
       org.opencontainers.image.created="2025-09-07T02:30:00Z" \
       org.opencontainers.image.description="Application packaged by kwop." \
       org.opencontainers.image.documentation="https://github.com/kwop/containers/tree/main/bitnami/rabbitmq/README.md" \
